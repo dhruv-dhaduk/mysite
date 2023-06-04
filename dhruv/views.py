@@ -21,3 +21,6 @@ def resume(request):
 
 def books(request):
     return render(request, "dhruv/books.html")
+
+def counter(request):
+    return render(request, "dhruv/counter.html")
