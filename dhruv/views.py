@@ -6,3 +6,6 @@ def index(request):
 
 def headings(request):
     return render(request, "dhruv/headings.html")
+
+def image(request):
+    return render(request, "dhruv/image.html")
