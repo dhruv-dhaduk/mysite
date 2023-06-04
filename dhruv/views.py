@@ -12,3 +12,12 @@ def image(request):
 
 def button(request):
     return render(request, "dhruv/button.html")
+
+def songs(request):
+    return render(request, "dhruv/songs.html")
+
+def resume(request):
+    return render(request, "dhruv/resume.html")
+
+def books(request):
+    return render(request, "dhruv/books.html")
