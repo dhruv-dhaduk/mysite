@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+#heading {
+    padding: 1%;
+}
+
+p {
+    text-align: center;                
+    color: white;
+    list-style-type: none;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+
+    font-family: Arial;
+}
+
+hr {
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 7px;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
