@@ -9,3 +9,6 @@ def headings(request):
 
 def image(request):
     return render(request, "dhruv/image.html")
+
+def button(request):
+    return render(request, "dhruv/button.html")
