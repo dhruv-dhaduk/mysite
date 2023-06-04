@@ -24,3 +24,6 @@ def books(request):
 
 def counter(request):
     return render(request, "dhruv/counter.html")
+
+def google(request):
+    return render(request, "dhruv/google.html")
